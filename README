@@ -12,7 +12,10 @@ Asciiquarium is an aquarium/sea animation in ASCII art.
 
 Run as container
 -----------------
+$docker run -it --rm salvadorrueda/asciiquarium
 
+Build an image
+-----------------
 $git clone https://github.com/salvadorrueda/asciiquarium/
 $cd asciiquarium
 $docker build -t asciiquarium .
