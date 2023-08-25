@@ -13,6 +13,8 @@ Asciiquarium is an aquarium/sea animation in ASCII art.
 Run as container
 -----------------
 $docker run -it --rm salvadorrueda/asciiquarium
+Enjoy and press q to quit
+
 
 Build an image
 -----------------
