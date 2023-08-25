@@ -124,6 +124,8 @@ sub main {
 			if   ( $in eq 'q' ) { quit(); }   # Exit
 			elsif( $in eq 'r' ) { last; }     # Redraw (will recreate all objects)
 			elsif( $in eq 'p' ) { $paused = !$paused; }
+			# add a whale 
+			elsif( $in eq 'w' ) { add_whale(undef, $anim); }
 
 			$anim->animate() unless($paused);
 		}
